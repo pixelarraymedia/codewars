@@ -17,7 +17,7 @@
 //  4  =>  true
 // 25  =>  true
 // 26  =>  false
-// isSquare (-1) // => false
+        // isSquare (-1) // => false
 // isSquare   3  // => false
 // isSquare   4  // => true
 // isSquare  25  // => true
