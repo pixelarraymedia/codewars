@@ -7,7 +7,7 @@
 // 14: -14
 // -34: 34
 
-// Negative, 0,
+// Negative, 0, +, decimal 
 // Integer
 
 function opposite(number) {
