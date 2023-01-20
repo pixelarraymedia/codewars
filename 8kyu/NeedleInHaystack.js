@@ -12,7 +12,7 @@
 // Note: In COBOL, it should return "found the needle at position 6"
 
 // String, Needle
-// Message + index 
+// Message + index git a
 
 function findNeedle(haystack) {
     return `found the needle at position ${haystack.indexOf('needle')}`
