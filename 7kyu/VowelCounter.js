@@ -9,7 +9,7 @@
 function getCount(str) {
 
     //Use Regex to count vowels
-    return(str.match(/[aeiou]/gi,'' )).length;
+    return(str.match(/[^aeiou]/gi,'' )).length;
 
 
   }
