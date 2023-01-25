@@ -5,15 +5,14 @@
 //const array2 = [ true, false, true, false ]
 
 const countSheeps = arrayOfSheep => {
-
       // loop
         // Conditionals, + , true++
         // console.log number
     let count = 0
-
-    for(let i = 0; i < arrayOfSheep.length; i += 1){
-
-      count += arrayOfSheep[i];
+    for(let i = 0; i < arrayOfSheep.length; i++){
+      //count += arrayOfSheep[i]; 
+    if(arrayOfSheep[i] == true)
+     count++;
     }
     //console.log(count)
 
