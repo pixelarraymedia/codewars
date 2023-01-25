@@ -25,7 +25,7 @@
 
 
 const sum = numbers => { 
-    // Loop check for empty
+    // Loop check for empty value
   let result = 0;
     for (let i = 0; i < numbers.length; i += 1)
       // add items in array to the sum variable
@@ -39,6 +39,10 @@ const sum = numbers => {
     
     return result;
   };
-    //.reduce() returns the sum of all elements in the array
+
+
+  // function sum(numbers) {
+  //   return numbers.reduce((a, b) => a + b, 0);
+  // } //.reduce() returns the sum of all elements in the array
   
   
