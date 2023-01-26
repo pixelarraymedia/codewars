@@ -26,15 +26,14 @@ function counter(arrayOfSheep){
 }
 
 
-// const countSheeps = arrayOfSheep => {
+const countSheeps2 = arrayOfSheep => {
 
-//     let count = 0
+    let count = 0
+    for(let i = 0; i < arrayOfSheep.length; i++){
 
-//     for(let i = 0; i < arrayOfSheep.length; i++){
+      count += arrayOfSheep[i];
+    }
 
-//       count += arrayOfSheep[i];
-//     }
-
-//     return count;
-// };
+    return count;
+ };
 
