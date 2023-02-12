@@ -10,7 +10,7 @@
 // longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
 
 
-// value of set one collects once adn its collection is unique
+// value of set() one collects once adn its collection is unique
 // .sort for order and .join to make long string
 
 
