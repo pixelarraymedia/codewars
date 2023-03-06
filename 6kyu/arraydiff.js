@@ -9,9 +9,17 @@
 // arrayDiff([1,2,2,2,3],[2]) == [1,3]
 
 
-const arrayDiff = (a, b) => a.filter(item => !b.includes(item))
+const arrayDiff = (a, b) => a.filter(el => !b.includes(el))
 //console.log(arrayDiff([1, 2], [1]))
 
 // filter through array
-// compare elements using logical not statement
+// compare elements using logical not statement (!)
 // replace duplicate values with undefeinde a.filter(boolean)
+
+
+
+
+// Top Solution:
+// function array_diff(a, b) {
+//     return a.filter(e => !b.includes(e));
+//   }

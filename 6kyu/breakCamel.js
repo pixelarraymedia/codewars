@@ -19,7 +19,7 @@ function solution(string) {
   return newStr;
   
   }                 
-    
+  // My solution :
 //   function solution(string) {
 //   let newStr = "";
 //   if(string){
