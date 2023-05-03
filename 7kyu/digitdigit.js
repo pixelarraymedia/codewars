@@ -17,3 +17,9 @@ function squareDigits(num){
      return Number(result.join('')); // return number of the result string joined using .join()
    
    }
+
+
+   function squareDigits(num){
+    return Number(('' + num).split('').map(function (i) { return i * i;}).join(''));
+    
+  }
