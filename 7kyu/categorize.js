@@ -13,8 +13,17 @@
 // input =  [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
 // output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 
-const openOrSenior = data => data.map(([age, handicap]) => age > 54 && handicap > 7 ? 'Senior' : 'Open' )
 
+// Destructuring: [age, handicap] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+// Arrow Functions: () => {} https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+// Best practice
+function openOrSenior(data){
+    return data.map(([age, handicap]) => (age > 54 && handicap > 7) ? 'Senior' : 'Open');
+  }
+
+
+// Solution
 function openOrSenior(data){
     let result = []
      for ( let i = 0; i < data.length; i++){
@@ -28,7 +37,10 @@ function openOrSenior(data){
        return result
    }
 
+// Solution test
+const openOrSenior = data => data.map(([age, handicap]) => age > 54 && handicap > 7 ? 'Senior' : 'Open' )
 
+// My Attempt
 function openOrSenior(data){
     return (data[0] >= 55 && data[1] > 7 ) ? 'Senior' :  'Open';
   }
