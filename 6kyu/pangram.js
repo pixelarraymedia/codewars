@@ -2,39 +2,12 @@
 
 // Given a string, detect whether or not it is a pangram. Return True if it is, False if not. Ignore numbers and punctuation.
 
-
-
-function isPangram(string){
-    let str=string.split('').join('').replace('/[W\d/g]').toLowerCase('').split('')
-    return [... new Set (str)].length==26;
-}
-
-///// * brute force * ///// 
-
-
-// string, a-z,
-// ignore duplicate chars, no numbers, if pangram = true else false
-
-// function isPangram(string) {
-//   string = string.toLowerCase().replace(/[^a-z]/g, "");
-
-//   // log letters in empty object
-//   let letters = {};
-
-//   // loop through letters in the sentance
-//   for (let i = 0; i < string.length; i++) {
-//     let char = string[i];
-//     //  add letters the object
-//     if (!letters[char]) {
-//       letters[char] = true;
-//     }
-//   }
-
-//   // check if letters = 26
-//   if (Object.keys(letters).length == 26) {
-//     return true; // pangram
-//   } else {
-//     return false; // not
-//   }
-// }
-  
+function isPangram(string) {
+    let str = string.split('') // convert the input string to an array of characters
+                   .join('') // join the characters into a single string
+                   .replace('/[W\d/g]', '') // remove any non-alphabetic characters using a regular expression
+                   .toLowerCase() // convert all characters to lowercase
+                   .split(''); // convert the string back into an array of characters
+    
+    return [...new Set(str)].length == 26; // convert the array to a set to remove duplicates, then check if the length is 26 (the number of letters in the alphabet)
+  }
