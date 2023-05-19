@@ -13,5 +13,21 @@
 // FUNDAMENTALS
 
 function findOdd(ar) {
+      // The function takes an array 'ar' as input and searches for an element that satisfies the provided testing function.
     return ar.find((item) => ar.filter(el => el === item ).length % 2)
+      // The 'find()' method is used to search for an element that meets the condition specified by the arrow function.
+      // This arrow function checks each element 'item' of the array.
+
    }
+
+
+   //  ar.filter(el => el === item)
+// // The 'filter()' method is used to create a new array that only contains elements matching 'item'.
+// // It filters out all other elements except for the ones equal to 'item'.
+
+// ar.filter(el => el === item).length
+// // The 'length' property is used to determine the count of elements matching 'item' in the filtered array.
+
+// ar.filter(el => el === item).length % 2
+// The '%' operator is used to perform modulo division by 2.
+// This checks if the length is an odd number (has a remainder of 1 when divided by 2).
