@@ -31,3 +31,5 @@ function findOdd(ar) {
 // ar.filter(el => el === item).length % 2
 // The '%' operator is used to perform modulo division by 2.
 // This checks if the length is an odd number (has a remainder of 1 when divided by 2).
+
+// If the testing function inside find() returns true (indicating that the count of elements matching item is odd), find() will return that element as the result.
