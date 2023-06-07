@@ -12,17 +12,17 @@ function descendingOrder(n){
   // sort -> reverse string numbers
   // add spaces iun string result
     
-      var stringToNumber = n.toString();
+      let stringToNumber = n.toString();
       // Turn number to tring
     
-      var arr = stringToNumber.split('');
+      let arr = stringToNumber.split('');
     
-      var result = arr.sort(function(a, b){return b - a});
+      let result = arr.sort(function(a, b){return b - a});
     // only now that we have split the number we can sort()
-      var stringresult = result.join();
+      let stringresult = result.join();
     //   
       stringresult = stringresult.replace(/,/g,"");
-    // replace string result , with a space
+    // replace string result , with a space to make a full number
       return parseInt(stringresult)
     
     }

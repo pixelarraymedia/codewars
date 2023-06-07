@@ -25,7 +25,7 @@ function getCount(str) {
     for (let char of str) {
         if (vowels.includes(char)){
             vowelsCounter++
-            // increment counter if value is cound
+            // increment counter if value is counted
         }
 
 
