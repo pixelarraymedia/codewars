@@ -30,3 +30,4 @@ function friend(friends){
   }
   // faster program
   const friend = friends => friends.filter(element => element.length == 4 )
+  // using filter we check if  the array is equal to 4
