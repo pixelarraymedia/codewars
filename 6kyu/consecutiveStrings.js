@@ -48,6 +48,10 @@ return k > 0 ? long : ""
 
 }
 
+// 1 creating concatentated string using slice(). We can slice the current index in the loop up to i + k
+// 2 using this If statement it will only return the greatest concatenated length 
+
+
 // best practice
 // function longestConsec(strarr, k) {
 //     var longest = "";
