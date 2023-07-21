@@ -34,6 +34,7 @@ function isValidWalk(walk) {
   // best practice
 
 //   function isValidWalk(walk) {
+    
 //     var dx = 0
 //     var dy = 0
 //     var dt = walk.length
