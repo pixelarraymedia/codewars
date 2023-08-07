@@ -7,13 +7,9 @@
 function boolToWord(bool){
     // check if number is greater than 0
     // Boolean will return 1 > return false
-  
-  
-    return bool == true ? "Yes" : "No" 
-  
-  
 
-    
+    return bool == true ? "Yes" : "No" 
+
   } 
       if (typeof bool === "true") {
        return "yes"
