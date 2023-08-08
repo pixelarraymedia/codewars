@@ -12,11 +12,12 @@ function boolToWord(bool){
     return bool == true ? "Yes" : "No" 
   
   
-  //   if (typeof bool === "true") {
-  //     return "yes"
-  //   } else{ 
+
     
-  //   return "false" 
-  //   }
+  } 
+      if (typeof bool === "true") {
+       return "yes"
+     } else{ 
     
-  }
+    return "false" 
+    }
