@@ -41,8 +41,8 @@ const sum = numbers => {
   };
 
 
-  // function sum(numbers) {
-  //   return numbers.reduce((a, b) => a + b, 0);
-  // } //.reduce() returns the sum of all elements in the array
+  function sum(numbers) {
+     return numbers.reduce((a, b) => a + b, 0);
+   } //.reduce() returns the sum of all elements in the array
   
   
