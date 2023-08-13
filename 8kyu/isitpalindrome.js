@@ -6,7 +6,7 @@
 function isPalindrome(x) {
     return x.toLowerCase() == x.split('').reverse().join('').toLowerCase()
   }
-//  Best practice
-  // const isPalindrome = (x) => {
-  //   return x.split("").reverse().join("").toLowerCase() === x.toLowerCase() ? true : false
-  // }
+// Best practice
+ const isPalindrome = (x) => {
+    return x.split("").reverse().join("").toLowerCase() === x.toLowerCase() ? true : false
+  }
