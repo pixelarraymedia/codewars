@@ -10,13 +10,13 @@
 
 const expandedForm = num => num.toString().split("").reverse('').map((a, i) => a * Math.pow(10 , i )).filter( a  => a > 0).reverse().join( ' + ' )
 
-// function expandedForm(num) {
-//     return String(num)
-//             .split("")
-//             .map((num, index, arr) => num + "0".repeat(arr.length - index -1 ))
-//             .filter((num) => Number(num) != 0)
-//             .join(" + ")
-//   }
+ function expandedForm(num) {
+     return String(num)
+             .split("")
+             .map((num, index, arr) => num + "0".repeat(arr.length - index -1 ))
+            .filter((num) => Number(num) != 0)
+             .join(" + ")
+   }
 
 // In step 4, the .map() method is called on the reversed array of digits obtained from n, and a callback function (a, i) => a * Math.pow(10, i) is provided as an argument. This callback function takes two parameters, a and i, representing the current element and its index in the array, respectively.
 
