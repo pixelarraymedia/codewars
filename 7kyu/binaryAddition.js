@@ -9,3 +9,9 @@
 // BINARYFUNDAMENTALS
 
 const addBinary = ( a,b ) => (a + b).toString(2)
+
+
+
+// standard programming is base-10
+// base-10 system has 9 digits, 0 - 9
+// each digit position is based to the power of 10
