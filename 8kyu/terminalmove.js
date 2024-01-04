@@ -11,3 +11,8 @@ function move (position, roll) {
     return position + roll * 2;
 
 }
+// best practice
+const move = (position, roll) => position + roll * 2
+
+// clever
+const move = (p, r) => p + r * 2;
