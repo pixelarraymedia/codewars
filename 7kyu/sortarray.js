@@ -15,3 +15,9 @@ const sortByLength = array => array.sort((a,b) => a.length - b.length)
 // if the result is negative A is set to A lower index than B. meaning A will be indexed in a position before B
 // if the result is positive A is sorted to an higher index then B. Meaning A will be indexed in a position after B. 
 // if the A - B  result 0 they will remain in their current order
+
+function sortByLength (array) {
+    return array.sort((a,b) => a.length - b.length);
+  };
+
+  let sortByLength = arr => arr.sort((a,b) => a.length - b.length);
