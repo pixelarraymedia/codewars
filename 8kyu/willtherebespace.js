@@ -21,3 +21,15 @@ const enough = (cap, on, wait) => {
         return total - cap
     }
 }
+
+// best practice
+
+function enough(cap, on, wait) {
+    return Math.max(wait + on - cap, 0)
+}
+
+// clever
+
+function enough(cap, on, wait){
+    return (on+wait > cap ) ? on+wait-cap : 0
+}
