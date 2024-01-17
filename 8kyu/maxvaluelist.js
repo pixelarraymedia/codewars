@@ -6,13 +6,17 @@
 // * [42, 54, 65, 87, 0]             -> min = 0, max = 87
 // * [5]                             -> min = 5, max = 5
 // Notes
-// You may consider that there will not be any empty arrays/vectors.
+// You may consider that there will not be any empty arrays/vectors.ef
 
 
 var min = function(list){ 
     return Math.min(...list)
 }
-
 var max = function(list){
     return Math.max(...list);
 }
+
+// best practice
+
+const min = (list) => Math.min(...list);
+const max = (list) => Math.max(...list);
