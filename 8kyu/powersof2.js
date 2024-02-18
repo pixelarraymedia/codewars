@@ -7,7 +7,7 @@
 
 
 // int, no negative, duplicates allowed, no decimals
-//
+// similar to how index work in javascript index starts at 0, so the first indexed power of 2 is always 2^0 = 1
 
 function powersOfTwo(n){
     let result = [];
