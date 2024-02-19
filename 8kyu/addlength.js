@@ -8,9 +8,10 @@
 
 // Note: String will have at least one element; words will always be separated by a space.
 
-
+ // the map object holds keyvalue pairs and remembers the original insertaion order of the key. Values can be used as either a key or a value.
+     // map obects are collefctions of key value pairs. a key in the map will only occure once. a key can be a string, number, object, or even a function( for ... of).
+     
 function addLength(str) {
     return str.split(' ').map(word =>  word + ' ' + word.length)
     }
-     // the map object holds keyvalue pairs and remembers the original insertaion order of the key. Values can be used as either a key or a value.
-     // map obects are collefctions of key value pairs. a key in the map will only occure once. a key can be a string, number, object, or even a function( for ... of).
+    
