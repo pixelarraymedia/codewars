@@ -15,8 +15,23 @@
 // s="aaaxbbbbyyhwawiwjjjwwm"
 // printer_error(s) => "8/22"
 
+
+// the filte() array method instances a shallow copy of a portion of a given array, and filteres down the elements of the given array that pass the test implemented by the provided function.
 function printerError(s) {
-
-
     return s.split('').filter(x => x > 'm').length + '/' + s.length;
   }
+//
+// best practice
+function printerError(s) {
+    // your code
+    var count = 0;
+    for(var i = 0; i < s.length; i++) {
+      if (s[i] > "m") {
+        count++;
+      }
+    }
+    return count+"/"+s.length;
+}
+
+//clever solution
+const printerError = s => `${s.replace(/[a-m]/gi, "").length}/${s.length}`;
