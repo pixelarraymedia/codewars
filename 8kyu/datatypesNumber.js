@@ -47,3 +47,17 @@ function equal5(){
       b =  v4; 
   return a % b;
 }
+
+// clever
+
+let ver1 = 50, 
+    ver2 = 100, 
+    ver3 = 150, 
+    ver4 = 200, 
+    ver5 = 2, 
+    ver6 = 250;
+    const equal1 = () => ver1 + ver1;
+    const qual2 = () => ver3 - ver1;
+    const equal3 = () => ver1 * ver5;
+    const equal4 = () => ver4 / ver5;
+    const equal5 = () => ver2 % ver4;

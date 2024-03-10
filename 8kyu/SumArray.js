@@ -36,10 +36,8 @@ const sum = numbers => {
        // 1 + 6 => #result = 6 
       }
     console.log(numbers)
-    
     return result;
   };
-
 
   function sum(numbers) {
      return numbers.reduce((a, b) => a + b, 0);
