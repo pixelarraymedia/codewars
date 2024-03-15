@@ -7,3 +7,10 @@ const take = (arr, n) => arr.slice(0, n)
 
 // clever
 let take = (arr, n) => arr.slice(0, n)
+
+
+// clever
+
+function take(arr, n){
+    return arr.filter((element, index) => index<n)
+} 
